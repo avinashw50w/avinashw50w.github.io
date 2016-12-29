@@ -1,0 +1,68 @@
+@import url('bootstrap.min.css');
+@import url('bootstrap-theme.min.css');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body
+{
+    padding-top: 40px;
+}
+
+.navbar-brand
+{
+    font-family: 'baloo thambi';
+    font-size: 30px;
+    color: #fff;
+
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover
+{
+    color: #ccc;
+}
+
+.navbar-nav
+{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.jumbotron
+{
+    font-family: 'ubuntu', 'Courier';
+
+    color: #fff;
+    background: url('../img/back3.jpg');
+}
+
+
+.jumbotron #main-heading
+{
+    font-family: 'Julius sans one';
+    transition: 0.4s ease-in-out;
+}
+
+.jumbotron #main-heading:hover
+{
+    letter-spacing: 4px;
+    color: rgb(231, 242, 10);
+    cursor: pointer;
+}
+
+.btn-group > a
+{
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
+
+.footer
+{
+    font-family: ubuntu;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #222;
+}
