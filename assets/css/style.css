@@ -94,7 +94,7 @@ h2 {
 {
     letter-spacing: 4px;
     color: #ddd;
-    cursor: pointer;
+    cursor: default;
 }
 
 .jumbotron>div>p
@@ -105,7 +105,7 @@ h2 {
 .btn-group > a
 {
     color: #000;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .well
