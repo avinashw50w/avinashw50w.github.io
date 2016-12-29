@@ -1,5 +1,5 @@
 $(document).ready(
     $(document).on('scroll', function (e) {
-        $('.navbar').css('opacity', ($(document).scrollTop() / 300));
+        $('.navbar').css('opacity', ($(document).scrollTop() / 400));
     })
 );

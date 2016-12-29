@@ -67,7 +67,7 @@ h2 {
 
     color: #fff;
     background: url('../img/back3.jpg');
-    height: 400px;
+    height: 100vh;
 }
 
 
@@ -109,4 +109,11 @@ h2 {
 
     color: #fff;
     background-color: #222;
+}
+
+.footer .base-footer
+{
+    background-color: rgb(53, 120, 175);
+    padding: 20px;
+    margin: 0px;
 }
