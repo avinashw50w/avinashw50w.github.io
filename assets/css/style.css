@@ -45,6 +45,7 @@ h2 {
 
 .navbar {
     opacity : 0.0;
+    background-color: rgb(53, 120, 175);
 }
 
 .navbar-header .navbar-brand
@@ -54,11 +55,11 @@ h2 {
     color: #fff;
     display: inline;
 
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .navbar-header .navbar-brand:hover {
-    color: #ccc;
+    color: #000;
 }
 
 .nav.navbar-nav>li>a
@@ -70,7 +71,7 @@ h2 {
 
 .nav.navbar-nav>li>a:hover
 {
-    color: #ccc;
+    color: #000;
 }
 
 .jumbotron
