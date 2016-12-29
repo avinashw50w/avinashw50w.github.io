@@ -126,6 +126,9 @@ p
     color: rgb(231, 32, 32);
 }
 
+#sub-header1 {
+    color: rgb(231, 32, 32);
+}
 strong#my-name
 {
     color: #222;
@@ -144,6 +147,10 @@ strong#my-name:hover
     transition: .3s ease-in-out;
 
     color: #000;
+}
+
+.page-header {
+    margin-top: 60px;
 }
 
 .well
