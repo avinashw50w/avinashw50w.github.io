@@ -94,7 +94,7 @@ h2 {
 {
     letter-spacing: 4px;
     color: #ddd;
-    cursor: pointer;
+    cursor: default;
 }
 
 .jumbotron>div>p
