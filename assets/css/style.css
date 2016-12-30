@@ -17,7 +17,8 @@ body
 }
 
 .js #loader
-{position: absolute; top: 0; left: 100px;
+{
+    position: absolute; top: 0; left: 100px;
 
     display: block;
 }
@@ -43,7 +44,8 @@ small
     font-weight: bold;
 }
 
-h1 {
+h1
+{
     font-size: 300%;
 }
 
@@ -126,20 +128,23 @@ p
     color: rgb(231, 32, 32);
 }
 
-#sub-header1 {
+#sub-header1
+{
     color: rgb(231, 32, 32);
 }
 strong#my-name
 {
+    transition: .4s ease-in-out;
+
     color: #222;
-    transition: 0.4s ease-in-out;
 }
 
 strong#my-name:hover
 {
-    color: rgb(231, 32, 32);
     cursor: default;
     letter-spacing: 2px;
+
+    color: rgb(231, 32, 32);
 }
 
 .btn-group > a
@@ -147,10 +152,6 @@ strong#my-name:hover
     transition: .3s ease-in-out;
 
     color: #000;
-}
-
-.page-header {
-    margin-top: 60px;
 }
 
 .well
