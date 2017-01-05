@@ -133,20 +133,6 @@ p
 {
     color: rgb(231, 32, 32);
 }
-strong#my-name
-{
-    transition: .4s ease-in-out;
-
-    color: #222;
-}
-
-strong#my-name:hover
-{
-    cursor: default;
-    letter-spacing: 2px;
-
-    color: rgb(231, 32, 32);
-}
 
 .btn-group > a
 {
